@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.local.amjbc"
-    android:versionCode="26"
-    android:versionName="2.6" >
-    
-    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    android:versionCode="29"
+    android:versionName="2.9" >
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.READ_CALENDAR" />
-    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-	<uses-permission android:name="android.permission.WAKE_LOCK" />
 	<uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="19" />
 
-    <permission android:name="com.local.amjbc.permission.C2D_MESSAGE" android:protectionLevel="signature" />
-	<uses-permission android:name="com.local.amjbc.permission.C2D_MESSAGE" />
     
     <application
         android:name="com.local.amjbc.Application"
@@ -35,6 +26,11 @@
             android:label="@string/app_name"
             android:theme="@style/CustomActionBarTheme"
             android:screenOrientation="portrait" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         
         <activity 
@@ -47,14 +43,9 @@
             android:theme="@android:style/Theme.NoTitleBar" 
             android:screenOrientation="portrait"
             >
-                        <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 	
 	<service android:name="com.parse.PushService" />
-
 
      	<receiver android:name=".parse.ParseReciever" android:exported="false" >
          	<intent-filter >
@@ -78,5 +69,19 @@
                 <action android:name="android.intent.action.PHONE_STATE" />
             </intent-filter>
             </receiver>
+
+
+        <service android:name=".service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
     </application>
 </manifest>

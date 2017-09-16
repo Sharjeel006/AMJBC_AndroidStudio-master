@@ -25,7 +25,7 @@
    <item type="id" name="key_3"/>
    <item type="id" name="key_4"/> 
     
-    <string name="version"><u>"Version: 1.7"</u></string>
+    <string name="version"><u>"Version: 2.9"</u></string>
 
     <string-array name="majalis">
         <item>Khudaam only</item>
@@ -48,7 +48,8 @@
         <item>About</item>
         <item>Feedback</item>
         <item>Chanda Calculator</item>
-        <item>Ramadhan</item>
+
+
         
     </string-array>
     
@@ -86,7 +87,7 @@
         <item>@drawable/ic_aboutus</item>
         <item>@drawable/ic_contact_us</item>
         <item>@drawable/ic_cal</item>
-        <item>@drawable/ic_ramazan</item>
+       <!-- <item>@drawable/ic_ramazan</item> -->
     </array>
 
         <string-array name="masjidss">

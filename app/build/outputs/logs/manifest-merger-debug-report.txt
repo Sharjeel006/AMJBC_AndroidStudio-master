@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:2:1-82:12
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:2:1-87:12
 	package
 		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:3:5-30
 		INJECTED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml
@@ -15,173 +15,281 @@ ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-mast
 		INJECTED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:2:11-69
-uses-permission#com.android.alarm.permission.SET_ALARM
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:7:5-78
-	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:7:22-75
 uses-permission#android.permission.INTERNET
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:8:5-67
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] /Users/sharjeelhussain/.android/build-cache/6eeda90ef0bd9f074200708248a7b61397e996b2/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/sharjeelhussain/.android/build-cache/af6ba207dd4032676319e3f76792f3750cfed25e/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:8:22-64
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:7:22-64
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:9:5-76
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:8:5-76
 	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:9:22-73
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:8:22-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:10:5-79
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] /Users/sharjeelhussain/.android/build-cache/6eeda90ef0bd9f074200708248a7b61397e996b2/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/sharjeelhussain/.android/build-cache/af6ba207dd4032676319e3f76792f3750cfed25e/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:10:22-76
-uses-permission#android.permission.READ_CALENDAR
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:11:5-72
-	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:11:22-69
-uses-permission#android.permission.WRITE_CALENDAR
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:12:5-73
-	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:12:22-70
-uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:13:5-71
-	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:13:22-68
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:14:2-79
-	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:14:19-76
-uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:15:2-65
-	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:15:19-62
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:9:22-76
 uses-permission#android.permission.VIBRATE
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:16:2-63
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:10:2-63
 	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:16:19-60
-uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:17:5-81
-	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:17:22-78
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:10:19-60
 uses-sdk
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:19:5-21:41
-MERGED from [com.felipecsl:gifimageview:2.1.0] /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/build/intermediates/exploded-aar/com.felipecsl/gifimageview/2.1.0/AndroidManifest.xml:8:5-43
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:12:5-14:41
+MERGED from [com.felipecsl:gifimageview:2.1.0] /Users/sharjeelhussain/.android/build-cache/1d05bcc26f74cb9248275309e53e22965c826ecc/output/AndroidManifest.xml:8:5-43
+MERGED from [com.google.firebase:firebase-messaging:9.6.0] /Users/sharjeelhussain/.android/build-cache/418f77b4c4dc426949acb2d0d83e8dcd0eac1bb8/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-core:9.6.0] /Users/sharjeelhussain/.android/build-cache/c36700add33aa3a4c284e7015a83bb33a160ce4a/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] /Users/sharjeelhussain/.android/build-cache/6eeda90ef0bd9f074200708248a7b61397e996b2/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/sharjeelhussain/.android/build-cache/af6ba207dd4032676319e3f76792f3750cfed25e/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:9.6.0] /Users/sharjeelhussain/.android/build-cache/204f671b6aeb3d6fd4374f4dbb75c557988c66db/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.6.0] /Users/sharjeelhussain/.android/build-cache/f1270aca9a10021930d82eff29488be419b1af03/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.6.0] /Users/sharjeelhussain/.android/build-cache/7356e4cfe88076544cf4e45d62e6679b670cc8d7/output/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.0.0] /Users/sharjeelhussain/.android/build-cache/dfac396607886a8ac53e6efa32cc38146f2cc6bf/output/AndroidManifest.xml:21:5-23:54
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:24.0.0] /Users/sharjeelhussain/.android/build-cache/dfac396607886a8ac53e6efa32cc38146f2cc6bf/output/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:21:9-38
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:14:9-38
 		INJECTED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:20:9-35
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:13:9-35
 		INJECTED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml
-permission#com.local.amjbc.permission.C2D_MESSAGE
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:23:5-109
-	android:protectionLevel
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:23:71-106
-	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:23:17-70
-uses-permission#com.local.amjbc.permission.C2D_MESSAGE
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:24:2-75
-	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:24:19-72
 application
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:26:5-81:19
-MERGED from [com.felipecsl:gifimageview:2.1.0] /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/build/intermediates/exploded-aar/com.felipecsl/gifimageview/2.1.0/AndroidManifest.xml:10:5-20
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:17:5-86:19
+MERGED from [com.felipecsl:gifimageview:2.1.0] /Users/sharjeelhussain/.android/build-cache/1d05bcc26f74cb9248275309e53e22965c826ecc/output/AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-messaging:9.6.0] /Users/sharjeelhussain/.android/build-cache/418f77b4c4dc426949acb2d0d83e8dcd0eac1bb8/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-core:9.6.0] /Users/sharjeelhussain/.android/build-cache/c36700add33aa3a4c284e7015a83bb33a160ce4a/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] /Users/sharjeelhussain/.android/build-cache/6eeda90ef0bd9f074200708248a7b61397e996b2/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/sharjeelhussain/.android/build-cache/af6ba207dd4032676319e3f76792f3750cfed25e/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:9.6.0] /Users/sharjeelhussain/.android/build-cache/204f671b6aeb3d6fd4374f4dbb75c557988c66db/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:9.6.0] /Users/sharjeelhussain/.android/build-cache/f1270aca9a10021930d82eff29488be419b1af03/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:9.6.0] /Users/sharjeelhussain/.android/build-cache/7356e4cfe88076544cf4e45d62e6679b670cc8d7/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] /Users/sharjeelhussain/.android/build-cache/dfac396607886a8ac53e6efa32cc38146f2cc6bf/output/AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:30:9-41
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:21:9-41
 	android:allowBackup
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:28:9-35
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:19:9-35
 	android:icon
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:29:9-44
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:20:9-44
 	android:theme
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:31:9-40
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:22:9-40
 	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:27:9-51
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:18:9-51
 activity#com.local.amjbc.MainActivity
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:33:9-38:20
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:24:9-34:20
 	android:screenOrientation
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:37:13-49
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:28:13-49
 	android:label
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:35:13-45
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:26:13-45
 	android:theme
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:36:13-56
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:27:13-56
 	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:34:13-56
-activity#com.local.amjbc.chandacal.DetailActivity
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:40:9-42:20
-	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:41:13-68
-activity#com.local.amjbc.Splash
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:44:9-54:20
-	android:screenOrientation
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:48:13-49
-	android:label
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:46:13-58
-	android:theme
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:47:13-60
-	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:45:13-50
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:25:13-56
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:50:25-53:29
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:30:13-33:29
 action#android.intent.action.MAIN
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:51:17-69
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:51:25-66
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:52:17-77
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:52:27-74
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:32:27-74
+activity#com.local.amjbc.chandacal.DetailActivity
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:36:9-38:20
+	android:name
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:37:13-68
+activity#com.local.amjbc.Splash
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:40:9-46:20
+	android:screenOrientation
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:44:13-49
+	android:label
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:42:13-58
+	android:theme
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:43:13-60
+	android:name
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:41:13-50
 service#com.parse.PushService
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:56:2-50
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:48:2-50
 	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:56:11-47
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:48:11-47
 receiver#com.local.amjbc.parse.ParseReciever
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:59:7-66:18
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:50:7-57:18
 	android:exported
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:59:53-77
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:50:53-77
 	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:59:17-52
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:50:17-52
 intent-filter#com.local.amjbc.Recieve_Push+com.parse.push.intent.DELETE+com.parse.push.intent.OPEN+com.parse.push.intent.RECEIVE
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:60:11-65:27
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:51:11-56:27
 action#com.local.amjbc.Recieve_Push
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:61:15-68
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:52:15-68
 	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:61:23-66
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:52:23-66
 action#com.parse.push.intent.RECEIVE
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:62:9-64
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:53:9-64
 	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:62:17-61
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:53:17-61
 action#com.parse.push.intent.DELETE
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:63:8-62
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:54:8-62
 	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:63:16-59
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:54:16-59
 action#com.parse.push.intent.OPEN
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:64:8-60
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:55:8-60
 	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:64:16-57
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:55:16-57
 receiver#com.parse.GcmBroadcastReceiver
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:68:4-75:15
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:59:4-66:15
 	android:permission
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:69:11-71
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:60:11-71
 	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:68:14-59
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:59:14-59
 intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+com.local.amjbc
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:70:7-74:23
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:61:7-65:23
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:71:9-73
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:62:9-73
 	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:71:17-70
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:62:17-70
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:72:9-78
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:63:9-78
 	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:72:17-75
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:63:17-75
 category#com.local.amjbc
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:73:9-52
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:64:9-52
 	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:73:19-49
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:64:19-49
 receiver#com.local.amjbc.NotificationPublisher
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:76:9-80:24
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:67:9-71:24
 	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:76:19-56
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:67:19-56
 intent-filter#android.intent.action.PHONE_STATE
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:77:13-79:29
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:68:13-70:29
 action#android.intent.action.PHONE_STATE
-ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:78:17-76
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:69:17-76
 	android:name
-		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:78:25-73
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:69:25-73
+service#com.local.amjbc.service.MyFirebaseMessagingService
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:74:9-78:19
+	android:name
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:74:18-68
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:75:13-77:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:76:17-78
+	android:name
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:76:25-75
+service#com.local.amjbc.service.MyFirebaseInstanceIDService
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:80:9-84:19
+	android:name
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:80:18-69
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:81:13-83:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:82:17-80
+	android:name
+		ADDED from /Users/sharjeelhussain/AndroidStudioProjects/AMJBC_AndroidStudio-master/app/src/main/AndroidManifest.xml:82:25-77
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.6.0] /Users/sharjeelhussain/.android/build-cache/418f77b4c4dc426949acb2d0d83e8dcd0eac1bb8/output/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.6.0] /Users/sharjeelhussain/.android/build-cache/418f77b4c4dc426949acb2d0d83e8dcd0eac1bb8/output/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.6.0] /Users/sharjeelhussain/.android/build-cache/418f77b4c4dc426949acb2d0d83e8dcd0eac1bb8/output/AndroidManifest.xml:23:18-87
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/sharjeelhussain/.android/build-cache/6eeda90ef0bd9f074200708248a7b61397e996b2/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/sharjeelhussain/.android/build-cache/af6ba207dd4032676319e3f76792f3750cfed25e/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/sharjeelhussain/.android/build-cache/6eeda90ef0bd9f074200708248a7b61397e996b2/output/AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/sharjeelhussain/.android/build-cache/6eeda90ef0bd9f074200708248a7b61397e996b2/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/sharjeelhussain/.android/build-cache/af6ba207dd4032676319e3f76792f3750cfed25e/output/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/sharjeelhussain/.android/build-cache/6eeda90ef0bd9f074200708248a7b61397e996b2/output/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/sharjeelhussain/.android/build-cache/6eeda90ef0bd9f074200708248a7b61397e996b2/output/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/sharjeelhussain/.android/build-cache/6eeda90ef0bd9f074200708248a7b61397e996b2/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/sharjeelhussain/.android/build-cache/6eeda90ef0bd9f074200708248a7b61397e996b2/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/sharjeelhussain/.android/build-cache/6eeda90ef0bd9f074200708248a7b61397e996b2/output/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/sharjeelhussain/.android/build-cache/6eeda90ef0bd9f074200708248a7b61397e996b2/output/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/sharjeelhussain/.android/build-cache/6eeda90ef0bd9f074200708248a7b61397e996b2/output/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/sharjeelhussain/.android/build-cache/6eeda90ef0bd9f074200708248a7b61397e996b2/output/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/sharjeelhussain/.android/build-cache/6eeda90ef0bd9f074200708248a7b61397e996b2/output/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/sharjeelhussain/.android/build-cache/6eeda90ef0bd9f074200708248a7b61397e996b2/output/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/sharjeelhussain/.android/build-cache/6eeda90ef0bd9f074200708248a7b61397e996b2/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/sharjeelhussain/.android/build-cache/af6ba207dd4032676319e3f76792f3750cfed25e/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/sharjeelhussain/.android/build-cache/6eeda90ef0bd9f074200708248a7b61397e996b2/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/sharjeelhussain/.android/build-cache/6eeda90ef0bd9f074200708248a7b61397e996b2/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/sharjeelhussain/.android/build-cache/6eeda90ef0bd9f074200708248a7b61397e996b2/output/AndroidManifest.xml:32:16-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:31:13-35:29
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/sharjeelhussain/.android/build-cache/8d817ce2fbe2fcf480dd1c465fffd4890241ab5f/output/AndroidManifest.xml:44:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.6.0] /Users/sharjeelhussain/.android/build-cache/204f671b6aeb3d6fd4374f4dbb75c557988c66db/output/AndroidManifest.xml:6:9-175
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.6.0] /Users/sharjeelhussain/.android/build-cache/204f671b6aeb3d6fd4374f4dbb75c557988c66db/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.6.0] /Users/sharjeelhussain/.android/build-cache/204f671b6aeb3d6fd4374f4dbb75c557988c66db/output/AndroidManifest.xml:6:125-149
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.6.0] /Users/sharjeelhussain/.android/build-cache/204f671b6aeb3d6fd4374f4dbb75c557988c66db/output/AndroidManifest.xml:6:150-173
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.6.0] /Users/sharjeelhussain/.android/build-cache/204f671b6aeb3d6fd4374f4dbb75c557988c66db/output/AndroidManifest.xml:6:79-124
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.6.0] /Users/sharjeelhussain/.android/build-cache/7356e4cfe88076544cf4e45d62e6679b670cc8d7/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.6.0] /Users/sharjeelhussain/.android/build-cache/7356e4cfe88076544cf4e45d62e6679b670cc8d7/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.6.0] /Users/sharjeelhussain/.android/build-cache/7356e4cfe88076544cf4e45d62e6679b670cc8d7/output/AndroidManifest.xml:20:20-65

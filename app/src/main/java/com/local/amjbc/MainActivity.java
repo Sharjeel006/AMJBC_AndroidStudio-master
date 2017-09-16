@@ -4,7 +4,10 @@ import android.app.ActionBar;
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
@@ -14,24 +17,26 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.content.LocalBroadcastManager;
 import android.support.v4.widget.DrawerLayout;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.local.amjbc.adapters.NavDrawerListAdapter;
+import com.local.amjbc.app.Config;
 import com.local.amjbc.chandacal.ChandaCal;
 import com.local.amjbc.model.NavDrawerItem;
-
-import org.json.JSONException;
-import org.json.JSONObject;
+import com.local.amjbc.utils.NotificationUtils;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class MainActivity extends Activity {
 
@@ -55,8 +60,13 @@ public class MainActivity extends Activity {
  
     private ArrayList<NavDrawerItem> navDrawerItems;
     private NavDrawerListAdapter adapter;
+
+    private static final String TAG = MainActivity.class.getSimpleName();
+    private BroadcastReceiver mRegistrationBroadcastReceiver;
+    private TextView txtRegId, txtMessage;
  
 	@Override
+    @SuppressWarnings("ResourceType")
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
@@ -70,13 +80,14 @@ public class MainActivity extends Activity {
 		mTitle = mDrawerTitle = getTitle();
 		sp = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
 
-
-//        Toast.makeText(getApplication(),sp.getString("title", "nothing"), Toast.LENGTH_LONG).show();
 		
         navMenuTitles = getResources().getStringArray(R.array.nav_drawer_items);
         navMenuIcons = getResources().obtainTypedArray(R.array.nav_drawer_icons);
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
+
+        txtRegId = (TextView) findViewById(R.id.txt_reg_id);
+        txtMessage = (TextView) findViewById(R.id.txt_push_message);
  
         navDrawerItems = new ArrayList<NavDrawerItem>();
         navDrawerItems.add(new NavDrawerItem(navMenuTitles[0], navMenuIcons.getResourceId(0, -1),false,"0"));
@@ -121,8 +132,50 @@ public class MainActivity extends Activity {
             // on first time display view
             displayView(0);
         }
+
+
+        mRegistrationBroadcastReceiver = new BroadcastReceiver() {
+            @Override
+            public void onReceive(Context context, Intent intent) {
+
+                // checking for type intent filter
+                if (intent.getAction().equals(Config.REGISTRATION_COMPLETE)) {
+                    // gcm successfully registered
+                    // now subscribe to `global` topic to receive app wide notifications
+                    FirebaseMessaging.getInstance().subscribeToTopic(Config.TOPIC_GLOBAL);
+
+                    displayFirebaseRegId();
+
+                } else if (intent.getAction().equals(Config.PUSH_NOTIFICATION)) {
+                    // new push notification is received
+
+                    String message = intent.getStringExtra("message");
+
+                    Toast.makeText(getApplicationContext(), "Push notification: " + message, Toast.LENGTH_LONG).show();
+
+                    txtMessage.setText(message);
+                }
+            }
+        };
+
+        displayFirebaseRegId();
+
 		
 	}
+
+    private void displayFirebaseRegId() {
+        SharedPreferences pref = getApplicationContext().getSharedPreferences(Config.SHARED_PREF, 0);
+        String regId = pref.getString("regId", null);
+
+        Log.e(TAG, "Firebase reg id: " + regId);
+
+        if (!TextUtils.isEmpty(regId))
+            txtRegId.setText("Firebase Reg Id: " + regId);
+        else
+            txtRegId.setText("Firebase Reg Id is not received yet!");
+    }
+
+
 
 	 private class SlideMenuClickListener implements ListView.OnItemClickListener {
 		 @Override
@@ -190,6 +243,10 @@ public class MainActivity extends Activity {
          // error in creating fragment
          Log.e("MainActivity", "Error in creating fragment");
      }
+
+
+
+
  }
 
 	@Override
@@ -217,32 +274,6 @@ public class MainActivity extends Activity {
 		
 	}
 
-	public void showpush(Intent i)
-	{
-		JSONObject json;
-		try {
-			json = new JSONObject(i.getExtras().getString("com.parse.Data"));
-
-			Iterator itr = json.keys();
-			while (itr.hasNext()) {
-					String key = (String)itr.next();
-					//Log.d("", "key ::  " + json.getString(key));
-					if(key.equals("alert")) {
-						Toast.makeText(getApplicationContext(), json.getString(key), Toast.LENGTH_LONG) ;	
-					}
-					
-					if(key.equals("title")) {
-						String title = json.getString(key);  
-					}
-			}	
-			
-			
-		} catch (JSONException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-	}
 	   @Override
 	    public void setTitle(CharSequence title) {
 	        mTitle = title;
@@ -263,4 +294,26 @@ public class MainActivity extends Activity {
 	        // Pass any configuration change to the drawer toggls
 	        mDrawerToggle.onConfigurationChanged(newConfig);
 	    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        LocalBroadcastManager.getInstance(this).registerReceiver(mRegistrationBroadcastReceiver,
+                new IntentFilter(Config.REGISTRATION_COMPLETE));
+
+        // register new push message receiver
+        // by doing this, the activity will be notified each time a new message arrives
+        LocalBroadcastManager.getInstance(this).registerReceiver(mRegistrationBroadcastReceiver,
+                new IntentFilter(Config.PUSH_NOTIFICATION));
+
+        // clear the notification area when the app is opened
+        NotificationUtils.clearNotifications(getApplicationContext());
+    }
+
+    @Override
+    protected void onPause() {
+        LocalBroadcastManager.getInstance(this).unregisterReceiver(mRegistrationBroadcastReceiver);
+        super.onPause();
+    }
 }

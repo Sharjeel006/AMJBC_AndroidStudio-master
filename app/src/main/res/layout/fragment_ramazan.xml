@@ -11,7 +11,7 @@
         <ImageView 
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_schedule_1"
+            android:src="@drawable/ic_suncloud"
             android:adjustViewBounds="true"
             />
         
@@ -19,13 +19,13 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
-            android:src="@drawable/ic_schedule_2"
+            android:src="@drawable/ic_suncloud"
             />
 		<ImageView 
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
-            android:src="@drawable/ic_schedule_3"
+            android:src="@drawable/ic_suncloud"
             />
         
 		<ImageView 
@@ -33,9 +33,16 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
-            android:src="@drawable/ic_schedule_4"
+            android:src="@drawable/ic_suncloud"
             />
-        
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_suncloud"
+            />
         
         
     </LinearLayout>

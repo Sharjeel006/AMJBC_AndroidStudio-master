@@ -85,13 +85,9 @@ public class ChandaCal extends Fragment {
         moosi = sp.getBoolean("moosiPre", false);
         monthly = sp.getBoolean("monthlyPre", false);
         org = sp.getString("org", "Ansaar");
-        
-        
 		   
 		   if(monthly == true) Toast.makeText(getActivity(), "Monthly", Toast.LENGTH_LONG).show();
 		   else Toast.makeText(getActivity(), "Yearly", Toast.LENGTH_LONG).show();
-        
-        
         
         setOrganisation();
        
@@ -156,9 +152,7 @@ public class ChandaCal extends Fragment {
     netremamount = (TextView) rootView.findViewById(R.id.netremamount);
 
     final CheckBox cb_roundup = (CheckBox) rootView.findViewById(R.id.amount_roundup);
-    
-    
-    
+
     if (roundup) cb_roundup.setChecked(true);
     else cb_roundup.setChecked(false);
     
@@ -186,8 +180,7 @@ public class ChandaCal extends Fragment {
 			
 		}
 	});
-    
-    
+
     save.setOnClickListener(new OnClickListener() {
 		
 		public void onClick(View v) {

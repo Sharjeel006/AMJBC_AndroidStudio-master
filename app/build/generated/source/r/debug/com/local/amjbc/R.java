@@ -30,27 +30,57 @@ public final class R {
         public static final int slide_out=0x7f050003;
     }
     public static final class array {
-        public static final int listArray=0x7f090000;
-        public static final int listValues=0x7f090001;
-        public static final int majalis=0x7f090002;
-        public static final int masjids=0x7f090003;
-        public static final int masjidss=0x7f090004;
-        public static final int nav_drawer_icons=0x7f090005;
-        public static final int nav_drawer_items=0x7f090006;
-        public static final int payperiod=0x7f090007;
-        public static final int prayers=0x7f090008;
-        public static final int timings=0x7f090009;
-        public static final int wassiyatpercentage=0x7f09000a;
+        public static final int listArray=0x7f0a0000;
+        public static final int listValues=0x7f0a0001;
+        public static final int majalis=0x7f0a0002;
+        public static final int masjids=0x7f0a0003;
+        public static final int masjidss=0x7f0a0004;
+        /**  <item>@drawable/ic_ramazan</item> 
+         */
+        public static final int nav_drawer_icons=0x7f0a0005;
+        public static final int nav_drawer_items=0x7f0a0006;
+        public static final int payperiod=0x7f0a0007;
+        public static final int prayers=0x7f0a0008;
+        public static final int timings=0x7f0a0009;
+        public static final int wassiyatpercentage=0x7f0a000a;
     }
     public static final class attr {
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circleCrop=0x7f010002;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int imageAspectRatio=0x7f010001;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
+<tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int imageAspectRatioAdjust=0x7f010000;
     }
     public static final class color {
-        public static final int black=0x7f0a0000;
+        public static final int black=0x7f0b0000;
     }
     public static final class dimen {
-        public static final int activity_horizontal_margin=0x7f070001;
-        public static final int activity_vertical_margin=0x7f070002;
-        public static final int list_height=0x7f070000;
+        public static final int activity_horizontal_margin=0x7f080001;
+        public static final int activity_vertical_margin=0x7f080002;
+        public static final int list_height=0x7f080000;
     }
     public static final class drawable {
         public static final int bg_gradient=0x7f020000;
@@ -97,195 +127,199 @@ public final class R {
         public static final int ic_namaz_bg_6=0x7f020029;
         public static final int ic_rain=0x7f02002a;
         public static final int ic_ramazan=0x7f02002b;
-        public static final int ic_schedule_1=0x7f02002c;
-        public static final int ic_schedule_2=0x7f02002d;
-        public static final int ic_schedule_3=0x7f02002e;
-        public static final int ic_schedule_4=0x7f02002f;
-        public static final int ic_settings=0x7f020030;
-        public static final int ic_storm=0x7f020031;
-        public static final int ic_sun=0x7f020032;
-        public static final int ic_suncloud=0x7f020033;
-        public static final int ic_tick=0x7f020034;
-        public static final int ic_tick_2=0x7f020035;
-        public static final int ic_tick_3_a=0x7f020036;
-        public static final int ic_twitter=0x7f020037;
-        public static final int img_compass_2=0x7f020038;
-        public static final int list_divider=0x7f020039;
-        public static final int list_item_bg_normal=0x7f02003a;
-        public static final int list_item_bg_pressed=0x7f02003b;
-        public static final int list_selector=0x7f02003c;
-        public static final int rounded_corners=0x7f02003d;
-        public static final int selector=0x7f02003e;
-        public static final int simple_border=0x7f02003f;
+        public static final int ic_settings=0x7f02002c;
+        public static final int ic_storm=0x7f02002d;
+        public static final int ic_sun=0x7f02002e;
+        public static final int ic_suncloud=0x7f02002f;
+        public static final int ic_tick=0x7f020030;
+        public static final int ic_tick_2=0x7f020031;
+        public static final int ic_tick_3_a=0x7f020032;
+        public static final int ic_twitter=0x7f020033;
+        public static final int img_compass_2=0x7f020034;
+        public static final int list_divider=0x7f020035;
+        public static final int list_item_bg_normal=0x7f020036;
+        public static final int list_item_bg_pressed=0x7f020037;
+        public static final int list_selector=0x7f020038;
+        public static final int rounded_corners=0x7f020039;
+        public static final int selector=0x7f02003a;
+        public static final int simple_border=0x7f02003b;
     }
     public static final class id {
-        public static final int InnerLinearLayout=0x7f0b003d;
-        public static final int MarqueeText=0x7f0b007a;
-        public static final int MarqueeTextCalFragment=0x7f0b0052;
-        public static final int aboutspace=0x7f0b0027;
-        public static final int activity_main2=0x7f0b009c;
-        public static final int add=0x7f0b009a;
-        public static final int addtocalendar=0x7f0b0018;
-        public static final int alarm=0x7f0b0089;
-        public static final int amount_roundup=0x7f0b0051;
-        public static final int asar=0x7f0b0086;
-        public static final int aux=0x7f0b004c;
-        public static final int aux1=0x7f0b004f;
-        public static final int auxamount=0x7f0b004d;
-        public static final int baiturrahman=0x7f0b007e;
-        public static final int bottom=0x7f0b001e;
-        public static final int bottom2=0x7f0b001b;
-        public static final int bottom3=0x7f0b0021;
-        public static final int bottom4=0x7f0b0024;
-        public static final int button1=0x7f0b003b;
-        public static final int calendarView1=0x7f0b000d;
-        public static final int cancel=0x7f0b009b;
-        public static final int checkBox=0x7f0b005a;
-        public static final int clock=0x7f0b001f;
-        public static final int condition=0x7f0b006f;
-        public static final int condition2=0x7f0b0077;
-        public static final int content_frame=0x7f0b000b;
-        public static final int countdown=0x7f0b007c;
-        public static final int counter=0x7f0b0014;
-        public static final int datePicker1=0x7f0b0034;
-        public static final int datePicker2=0x7f0b0062;
-        public static final int datepic=0x7f0b001c;
-        public static final int datepicker=0x7f0b00a5;
-        public static final int db1_root=0x7f0b003a;
-        public static final int descritext=0x7f0b0035;
-        public static final int descritext2=0x7f0b0063;
-        public static final int detailpreferences=0x7f0b00a6;
-        public static final int done=0x7f0b0010;
-        public static final int drawer_layout=0x7f0b000a;
-        public static final int dummyLeftRightOne=0x7f0b0007;
-        public static final int dummyLeftRightThree=0x7f0b0009;
-        public static final int dummyLeftRightTwo=0x7f0b0008;
-        public static final int edate=0x7f0b001d;
-        public static final int edesc=0x7f0b001a;
-        public static final int editText=0x7f0b005d;
-        public static final int ef=0x7f0b0092;
-        public static final int eid=0x7f0b0015;
-        public static final int eidfund=0x7f0b0091;
-        public static final int elocation=0x7f0b0022;
-        public static final int emajlis=0x7f0b0026;
-        public static final int error=0x7f0b006a;
-        public static final int etiming=0x7f0b0020;
-        public static final int etitle=0x7f0b0017;
-        public static final int eventlist=0x7f0b0069;
-        public static final int eventlist2=0x7f0b0068;
-        public static final int evenue=0x7f0b0023;
-        public static final int fajr=0x7f0b0084;
-        public static final int fit=0x7f0b0095;
-        public static final int fitrana=0x7f0b0094;
-        public static final int gifImageView=0x7f0b009d;
-        public static final int hangoutTvOne=0x7f0b0004;
-        public static final int hangoutTvThree=0x7f0b0006;
-        public static final int hangoutTvTwo=0x7f0b0005;
-        public static final int icon=0x7f0b0012;
-        public static final int imageViewCompass=0x7f0b005f;
-        public static final int img1=0x7f0b009e;
-        public static final int income=0x7f0b003f;
-        public static final int infoicon=0x7f0b007b;
-        public static final int isha=0x7f0b0088;
-        public static final int jsalana=0x7f0b0049;
-        public static final int jsalanaamount=0x7f0b004a;
-        public static final int key_1=0x7f0b0000;
-        public static final int key_2=0x7f0b0001;
-        public static final int key_3=0x7f0b0002;
-        public static final int key_4=0x7f0b0003;
-        public static final int label1=0x7f0b0070;
-        public static final int labelQuranClass=0x7f0b007d;
-        public static final int left_drawer=0x7f0b000c;
-        public static final int linearLayout3=0x7f0b00a2;
-        public static final int linearlayout1=0x7f0b00a3;
-        public static final int linearlayout2=0x7f0b00a4;
-        public static final int listview1=0x7f0b0079;
-        public static final int ll=0x7f0b0078;
-        public static final int login=0x7f0b006d;
-        public static final int maghrib=0x7f0b0087;
-        public static final int main=0x7f0b0046;
-        public static final int mainamount=0x7f0b0047;
-        public static final int majlis=0x7f0b0025;
-        public static final int majlistext=0x7f0b0038;
-        public static final int majlistext2=0x7f0b0066;
-        public static final int middle=0x7f0b0019;
-        public static final int moreInfo=0x7f0b0053;
-        public static final int netremamount=0x7f0b0044;
-        public static final int nettotalamount=0x7f0b0041;
-        public static final int ok=0x7f0b000e;
-        public static final int otherChandas=0x7f0b0055;
-        public static final int otheramount=0x7f0b0050;
-        public static final int password=0x7f0b006c;
-        public static final int progressBar1=0x7f0b00a1;
-        public static final int ramazangoto=0x7f0b0075;
-        public static final int row1=0x7f0b008a;
-        public static final int row2=0x7f0b008d;
-        public static final int row3=0x7f0b0090;
-        public static final int row4=0x7f0b0093;
-        public static final int row5=0x7f0b0096;
-        public static final int row6=0x7f0b0099;
-        public static final int sad=0x7f0b0098;
-        public static final int sadqa=0x7f0b0097;
-        public static final int save=0x7f0b0054;
-        public static final int scrollView1=0x7f0b0032;
-        public static final int scrollView2=0x7f0b0060;
-        public static final int selectedmasjid=0x7f0b0074;
-        public static final int spinner=0x7f0b0057;
-        public static final int spinner2=0x7f0b0059;
-        public static final int spinner3=0x7f0b005b;
-        public static final int submit=0x7f0b0039;
-        public static final int submit2=0x7f0b0067;
-        public static final int successtext=0x7f0b0011;
-        public static final int tableRow00=0x7f0b004e;
-        public static final int tableRow1=0x7f0b0045;
-        public static final int tableRow2=0x7f0b0048;
-        public static final int tableRow3=0x7f0b004b;
-        public static final int tableRow4=0x7f0b0040;
-        public static final int tableRow5=0x7f0b0042;
-        public static final int tableRow7=0x7f0b003e;
-        public static final int tehrekejadeed=0x7f0b008b;
-        public static final int textView=0x7f0b0056;
-        public static final int textView1=0x7f0b0028;
-        public static final int textView10=0x7f0b005c;
-        public static final int textView11=0x7f0b009f;
-        public static final int textView2=0x7f0b0029;
-        public static final int textView22=0x7f0b00a0;
-        public static final int textView3=0x7f0b002a;
-        public static final int textView4=0x7f0b002b;
-        public static final int textView4s=0x7f0b002c;
-        public static final int textView4w=0x7f0b002d;
-        public static final int textView5=0x7f0b002e;
-        public static final int textView6=0x7f0b002f;
-        public static final int textView7=0x7f0b0030;
-        public static final int textView8=0x7f0b0058;
-        public static final int textView9=0x7f0b0043;
-        public static final int textlayout=0x7f0b0073;
-        public static final int timePicker1=0x7f0b0036;
-        public static final int timePicker2=0x7f0b0064;
-        public static final int timeleft=0x7f0b0072;
-        public static final int timeleft2=0x7f0b0081;
-        public static final int timeleft3=0x7f0b0080;
-        public static final int timingsupdate=0x7f0b003c;
-        public static final int title=0x7f0b0013;
-        public static final int titletext=0x7f0b0033;
-        public static final int titletext2=0x7f0b0061;
-        public static final int tj=0x7f0b008c;
-        public static final int today=0x7f0b0076;
-        public static final int top=0x7f0b0016;
-        public static final int touchlayout=0x7f0b000f;
-        public static final int tvHeading=0x7f0b005e;
-        public static final int twitter=0x7f0b0031;
-        public static final int txtLabel=0x7f0b0083;
-        public static final int upcoming2=0x7f0b0071;
-        public static final int upcoming3=0x7f0b007f;
-        public static final int update_fragment=0x7f0b0082;
-        public static final int username=0x7f0b006b;
-        public static final int venuetext=0x7f0b0037;
-        public static final int venuetext2=0x7f0b0065;
-        public static final int wakfejadeed=0x7f0b008e;
-        public static final int weather=0x7f0b006e;
-        public static final int wj=0x7f0b008f;
-        public static final int zuhr=0x7f0b0085;
+        public static final int InnerLinearLayout=0x7f0c0042;
+        public static final int MarqueeText=0x7f0c007f;
+        public static final int MarqueeTextCalFragment=0x7f0c0057;
+        public static final int aboutspace=0x7f0c002c;
+        public static final int activity_main2=0x7f0c00a1;
+        public static final int add=0x7f0c009f;
+        public static final int addtocalendar=0x7f0c001d;
+        public static final int adjust_height=0x7f0c0004;
+        public static final int adjust_width=0x7f0c0005;
+        public static final int alarm=0x7f0c008e;
+        public static final int amount_roundup=0x7f0c0056;
+        public static final int asar=0x7f0c008b;
+        public static final int aux=0x7f0c0051;
+        public static final int aux1=0x7f0c0054;
+        public static final int auxamount=0x7f0c0052;
+        public static final int baiturrahman=0x7f0c0083;
+        public static final int bottom=0x7f0c0023;
+        public static final int bottom2=0x7f0c0020;
+        public static final int bottom3=0x7f0c0026;
+        public static final int bottom4=0x7f0c0029;
+        public static final int button1=0x7f0c0040;
+        public static final int calendarView1=0x7f0c0012;
+        public static final int cancel=0x7f0c00a0;
+        public static final int checkBox=0x7f0c005f;
+        public static final int clock=0x7f0c0024;
+        public static final int condition=0x7f0c0074;
+        public static final int condition2=0x7f0c007c;
+        public static final int content_frame=0x7f0c000e;
+        public static final int countdown=0x7f0c0081;
+        public static final int counter=0x7f0c0019;
+        public static final int datePicker1=0x7f0c0039;
+        public static final int datePicker2=0x7f0c0067;
+        public static final int datepic=0x7f0c0021;
+        public static final int datepicker=0x7f0c00aa;
+        public static final int db1_root=0x7f0c003f;
+        public static final int descritext=0x7f0c003a;
+        public static final int descritext2=0x7f0c0068;
+        public static final int detailpreferences=0x7f0c00ab;
+        public static final int done=0x7f0c0015;
+        public static final int drawer_layout=0x7f0c000d;
+        public static final int dummyLeftRightOne=0x7f0c000a;
+        public static final int dummyLeftRightThree=0x7f0c000c;
+        public static final int dummyLeftRightTwo=0x7f0c000b;
+        public static final int edate=0x7f0c0022;
+        public static final int edesc=0x7f0c001f;
+        public static final int editText=0x7f0c0062;
+        public static final int ef=0x7f0c0097;
+        public static final int eid=0x7f0c001a;
+        public static final int eidfund=0x7f0c0096;
+        public static final int elocation=0x7f0c0027;
+        public static final int emajlis=0x7f0c002b;
+        public static final int error=0x7f0c006f;
+        public static final int etiming=0x7f0c0025;
+        public static final int etitle=0x7f0c001c;
+        public static final int eventlist=0x7f0c006e;
+        public static final int eventlist2=0x7f0c006d;
+        public static final int evenue=0x7f0c0028;
+        public static final int fajr=0x7f0c0089;
+        public static final int fit=0x7f0c009a;
+        public static final int fitrana=0x7f0c0099;
+        public static final int gifImageView=0x7f0c00a2;
+        public static final int hangoutTvOne=0x7f0c0007;
+        public static final int hangoutTvThree=0x7f0c0009;
+        public static final int hangoutTvTwo=0x7f0c0008;
+        public static final int icon=0x7f0c0017;
+        public static final int imageViewCompass=0x7f0c0064;
+        public static final int img1=0x7f0c00a3;
+        public static final int income=0x7f0c0044;
+        public static final int infoicon=0x7f0c0080;
+        public static final int isha=0x7f0c008d;
+        public static final int jsalana=0x7f0c004e;
+        public static final int jsalanaamount=0x7f0c004f;
+        public static final int key_1=0x7f0c0000;
+        public static final int key_2=0x7f0c0001;
+        public static final int key_3=0x7f0c0002;
+        public static final int key_4=0x7f0c0003;
+        public static final int label1=0x7f0c0075;
+        public static final int labelQuranClass=0x7f0c0082;
+        public static final int left_drawer=0x7f0c0011;
+        public static final int linearLayout3=0x7f0c00a7;
+        public static final int linearlayout1=0x7f0c00a8;
+        public static final int linearlayout2=0x7f0c00a9;
+        public static final int listview1=0x7f0c007e;
+        public static final int ll=0x7f0c007d;
+        public static final int login=0x7f0c0072;
+        public static final int maghrib=0x7f0c008c;
+        public static final int main=0x7f0c004b;
+        public static final int mainamount=0x7f0c004c;
+        public static final int majlis=0x7f0c002a;
+        public static final int majlistext=0x7f0c003d;
+        public static final int majlistext2=0x7f0c006b;
+        public static final int middle=0x7f0c001e;
+        public static final int moreInfo=0x7f0c0058;
+        public static final int netremamount=0x7f0c0049;
+        public static final int nettotalamount=0x7f0c0046;
+        public static final int none=0x7f0c0006;
+        public static final int ok=0x7f0c0013;
+        public static final int otherChandas=0x7f0c005a;
+        public static final int otheramount=0x7f0c0055;
+        public static final int password=0x7f0c0071;
+        public static final int progressBar1=0x7f0c00a6;
+        public static final int ramazangoto=0x7f0c007a;
+        public static final int row1=0x7f0c008f;
+        public static final int row2=0x7f0c0092;
+        public static final int row3=0x7f0c0095;
+        public static final int row4=0x7f0c0098;
+        public static final int row5=0x7f0c009b;
+        public static final int row6=0x7f0c009e;
+        public static final int sad=0x7f0c009d;
+        public static final int sadqa=0x7f0c009c;
+        public static final int save=0x7f0c0059;
+        public static final int scrollView1=0x7f0c0037;
+        public static final int scrollView2=0x7f0c0065;
+        public static final int selectedmasjid=0x7f0c0079;
+        public static final int spinner=0x7f0c005c;
+        public static final int spinner2=0x7f0c005e;
+        public static final int spinner3=0x7f0c0060;
+        public static final int submit=0x7f0c003e;
+        public static final int submit2=0x7f0c006c;
+        public static final int successtext=0x7f0c0016;
+        public static final int tableRow00=0x7f0c0053;
+        public static final int tableRow1=0x7f0c004a;
+        public static final int tableRow2=0x7f0c004d;
+        public static final int tableRow3=0x7f0c0050;
+        public static final int tableRow4=0x7f0c0045;
+        public static final int tableRow5=0x7f0c0047;
+        public static final int tableRow7=0x7f0c0043;
+        public static final int tehrekejadeed=0x7f0c0090;
+        public static final int textView=0x7f0c005b;
+        public static final int textView1=0x7f0c002d;
+        public static final int textView10=0x7f0c0061;
+        public static final int textView11=0x7f0c00a4;
+        public static final int textView2=0x7f0c002e;
+        public static final int textView22=0x7f0c00a5;
+        public static final int textView3=0x7f0c002f;
+        public static final int textView4=0x7f0c0030;
+        public static final int textView4s=0x7f0c0031;
+        public static final int textView4w=0x7f0c0032;
+        public static final int textView5=0x7f0c0033;
+        public static final int textView6=0x7f0c0034;
+        public static final int textView7=0x7f0c0035;
+        public static final int textView8=0x7f0c005d;
+        public static final int textView9=0x7f0c0048;
+        public static final int textlayout=0x7f0c0078;
+        public static final int timePicker1=0x7f0c003b;
+        public static final int timePicker2=0x7f0c0069;
+        public static final int timeleft=0x7f0c0077;
+        public static final int timeleft2=0x7f0c0086;
+        public static final int timeleft3=0x7f0c0085;
+        public static final int timingsupdate=0x7f0c0041;
+        public static final int title=0x7f0c0018;
+        public static final int titletext=0x7f0c0038;
+        public static final int titletext2=0x7f0c0066;
+        public static final int tj=0x7f0c0091;
+        public static final int today=0x7f0c007b;
+        public static final int top=0x7f0c001b;
+        public static final int touchlayout=0x7f0c0014;
+        public static final int tvHeading=0x7f0c0063;
+        public static final int twitter=0x7f0c0036;
+        public static final int txtLabel=0x7f0c0088;
+        public static final int txt_push_message=0x7f0c000f;
+        public static final int txt_reg_id=0x7f0c0010;
+        public static final int upcoming2=0x7f0c0076;
+        public static final int upcoming3=0x7f0c0084;
+        public static final int update_fragment=0x7f0c0087;
+        public static final int username=0x7f0c0070;
+        public static final int venuetext=0x7f0c003c;
+        public static final int venuetext2=0x7f0c006a;
+        public static final int wakfejadeed=0x7f0c0093;
+        public static final int weather=0x7f0c0073;
+        public static final int wj=0x7f0c0094;
+        public static final int zuhr=0x7f0c008a;
+    }
+    public static final class integer {
+        public static final int google_play_services_version=0x7f0d0000;
     }
     public static final class layout {
         public static final int activity_hangout_dot_anim=0x7f030000;
@@ -315,19 +349,27 @@ public final class R {
         public static final int test=0x7f030018;
     }
     public static final class menu {
-        public static final int main=0x7f0d0000;
-        public static final int options_menu=0x7f0d0001;
+        public static final int main=0x7f0e0000;
+        public static final int options_menu=0x7f0e0001;
     }
     public static final class string {
-        public static final int action_settings=0x7f0c0000;
-        public static final int app_name=0x7f0c0001;
-        public static final int chanda_info_Ansar=0x7f0c0002;
-        public static final int chanda_info_Khuddam=0x7f0c0003;
-        public static final int chanda_info_Lajna=0x7f0c0004;
-        public static final int chanda_info_moosi=0x7f0c0005;
-        public static final int dot=0x7f0c0006;
-        public static final int title_activity_splash=0x7f0c0007;
-        public static final int version=0x7f0c0008;
+        public static final int action_settings=0x7f070001;
+        public static final int app_name=0x7f070002;
+        public static final int chanda_info_Ansar=0x7f070003;
+        public static final int chanda_info_Khuddam=0x7f070004;
+        public static final int chanda_info_Lajna=0x7f070005;
+        public static final int chanda_info_moosi=0x7f070006;
+        public static final int common_google_play_services_unknown_issue=0x7f070000;
+        public static final int default_web_client_id=0x7f070007;
+        public static final int dot=0x7f070008;
+        public static final int firebase_database_url=0x7f070009;
+        public static final int gcm_defaultSenderId=0x7f07000a;
+        public static final int google_api_key=0x7f07000b;
+        public static final int google_app_id=0x7f07000c;
+        public static final int google_crash_reporting_api_key=0x7f07000d;
+        public static final int google_storage_bucket=0x7f07000e;
+        public static final int title_activity_splash=0x7f07000f;
+        public static final int version=0x7f070010;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
@@ -338,13 +380,78 @@ public final class R {
             backward-compatibility can go here.
         
          */
-        public static final int AppBaseTheme=0x7f080000;
+        public static final int AppBaseTheme=0x7f090000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f080001;
-        public static final int CustomActionBarTheme=0x7f080002;
+        public static final int AppTheme=0x7f090001;
+        public static final int CustomActionBarTheme=0x7f090002;
     }
     public static final class xml {
         public static final int activity_preference2=0x7f060000;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a LoadingImageView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #LoadingImageView_circleCrop com.local.amjbc:circleCrop}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.local.amjbc:imageAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.local.amjbc:imageAspectRatioAdjust}</code></td><td></td></tr>
+           </table>
+           @see #LoadingImageView_circleCrop
+           @see #LoadingImageView_imageAspectRatio
+           @see #LoadingImageView_imageAspectRatioAdjust
+         */
+        public static final int[] LoadingImageView = {
+            0x7f010000, 0x7f010001, 0x7f010002
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.local.amjbc.R.attr#circleCrop}
+          attribute's value can be found in the {@link #LoadingImageView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.local.amjbc:circleCrop
+        */
+        public static final int LoadingImageView_circleCrop = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.local.amjbc.R.attr#imageAspectRatio}
+          attribute's value can be found in the {@link #LoadingImageView} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.local.amjbc:imageAspectRatio
+        */
+        public static final int LoadingImageView_imageAspectRatio = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.local.amjbc.R.attr#imageAspectRatioAdjust}
+          attribute's value can be found in the {@link #LoadingImageView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
+<tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.local.amjbc:imageAspectRatioAdjust
+        */
+        public static final int LoadingImageView_imageAspectRatioAdjust = 0;
+    };
 }

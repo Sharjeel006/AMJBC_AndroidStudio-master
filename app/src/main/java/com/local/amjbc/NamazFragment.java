@@ -72,6 +72,7 @@ public class NamazFragment extends Fragment {
 	private static String url_timings_3 =  "http://amj-bc.com/amjbc/fetch_timings.php";
 	private static String url_timings_4 =  "http://amj-bc.com/amjbc/getMarqueeInfo.php";
     private static String url_timings_5 =  "http://amj-bc.com/amjbc/getQuranClasstimes.php";
+
 	
 	private static final String TAG_SUCCESS = "success";
 
